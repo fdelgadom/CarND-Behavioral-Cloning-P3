@@ -99,11 +99,6 @@ The final model architecture it is a convolution neural network proposed by NVID
 
 ####3. Creation of the Training Set & Training Process
 
-I have used Udacity sample data for track 1, and inside the generator the data set it is 
+I have used Udacity sample data for track 1, put 20% of the data into a validation set and inside the generator the training set is randomly shuffled
 
-and in
-
-
-I finally randomly shuffled the data set and put Y% of the data into a validation set. 
-
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 2 due to the powerfull NVIDIA architecture as demonstrated in item 11 of the lesson. I used an adam optimizer so that manually training the learning rate wasn't necessary.
